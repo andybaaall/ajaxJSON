@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/andybaaall/ajaxJSON/issues"
   },
-  "homepage": "https://github.com/andybaaall/ajaxJSON#readme"
+  "homepage": "https://github.com/andybaaall/ajaxJSON#readme",
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
 }
