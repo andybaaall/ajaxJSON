@@ -1,0 +1,23 @@
+{
+  "name": "ajaxjson",
+  "version": "1.0.0",
+  "description": "in-class project covering ajax/json",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andybaaall/ajaxJSON.git"
+  },
+  "keywords": [
+    "ajax",
+    "json"
+  ],
+  "author": "andy baaall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andybaaall/ajaxJSON/issues"
+  },
+  "homepage": "https://github.com/andybaaall/ajaxJSON#readme"
+}
