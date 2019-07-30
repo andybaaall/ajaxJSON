@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Guinefort",
+    "age" : 23,
+    "occupation" : "Tavernkeep",
+    "kind-hearted" : false
+  },
+  {
+    "name": "Heracles",
+    "age" : 34,
+    "occupation" : "Cobbler",
+    "kind-hearted" : true
+  },
+  {
+    "name": "Innocent",
+    "age" : 30,
+    "occupation" : "Field labourer",
+    "kind-hearted" : true
+  },
+  {
+    "name": "Dimitrius",
+    "age" : 84,
+    "occupation" : "Burgher",
+    "kind-hearted" : true
+  },
+  {
+    "name": "Barnabas",
+    "age" : 61,
+    "occupation" : "Priest",
+    "kind-hearted" : false
+  }
+]
