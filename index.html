@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>json practice day 1</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/jquery-ui-dist/jquery-ui.css">
   </head>
   <body>
     <div class="container">
@@ -12,20 +13,36 @@
           <h1>ajax and json</h1>
         </div>
       </div>
+
       <div class="row">
         <div class="col">
           <button id="getPeople" class="btn btn-round btn-info mt-2 mb-2">get people from json</button>
         </div>
       </div>
+
       <div class="row">
-        <div id="cardContainer" class="col-6">
+        <div class="col">
+          <p>
+            <label for="age">age range: <span id="currentRange"></span></label>
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <div id="ageRangeSlider"></div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div id="cardContainer" class="col-12">
           <!-- populated by ajax request -->
         </div>
       </div>
     </div>
 
-
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/jquery-ui-dist/jquery-ui.js"></script>
     <script src="node_modules/popper.js/dist/popper.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
     <script src="js/script.js"></script>
